@@ -1,4 +1,5 @@
 
+
 🎯 Real-Time Quiz App
 A simple, interactive quiz application built with HTML, CSS, and JavaScript. Test your knowledge with timed questions, track your score in real-time, and try to beat your high score!
 
@@ -34,3 +35,5 @@ quiz-app/
 ├── quiz.css        # Styling and themes
 ├── quiz.js         # Quiz logic and functionality
 └── README.md       # Project documentation
+
+# Real-Time-Quiz-App
