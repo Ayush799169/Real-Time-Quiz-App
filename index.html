@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Quiz App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Real-Time Quiz App</h1>
+
+      <!-- START SCREEN -->
+      <div id="start-screen">
+        <p id="high-score-display">High Score: 0</p>
+        <button id="start-btn">Start Question</button>
+      </div>
+
+      <!-- QUIZ SCREEN -->
+      <div id="quiz-screen" class="hidden">
+        <div id="question-tracker">Question 1 of 10</div>
+
+        <!-- Progress bar -->
+        <div id="progress-bar">
+          <div id="progress-fill"></div>
+        </div>
+
+       <!-- Timer -->
+        <div id="timer">Timer: 0s</div>
+
+       <!-- Question and options -->
+        <h2 id="question">Loading...</h2>
+        <div id="options"></div>
+
+       <!-- Score display -->
+        <div id="score">Score: 0</div>
+
+        <!-- Next button -->
+        <button id="next-btn">Next</button>
+      </div>
+
+             <!-- RESULT SCREEN -->
+         <div id="result-screen" class="hidden">
+        <h2>Quiz Finished !</h2>
+        <p id="final-score">Your Score: 0 / 10</p>
+        <p id="correct-count">Correct: 0</p>
+        <p id="wrong-count">Wrong: 0</p>
+        <p id="not-attempted-count">Not Attempted: 0</p>
+        <p id="new-high-score" class="hidden">🎉 New High Score !</p>
+
+         <button id="reset-btn">Play Again</button>
+         </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
